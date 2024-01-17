@@ -31,7 +31,7 @@ function App() {
 
   const passwordRef = useRef(null);
   return (
-    <>
+    <div className="pt-6 mt-40 ">
       <div className="w-full  max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-gray-800 text-orange-500">
         <h1 className="text-white text-center my-3">Password Generator</h1>
         <div className="flex shadow rounded-lg mb-4 overflow-hidden">
@@ -98,7 +98,7 @@ function App() {
           Generate
         </button>
       </div>
-    </>
+    </div>
   );
 }
 
